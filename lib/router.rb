@@ -42,7 +42,7 @@ class Router
     puts "2 - Create a new recipe"
     puts "3 - Destroy a recipe"
     puts "4 - Import recipes from the Internet"
-    puts "5 - Mark as dones"
+    puts "5 - Mark as done"
     puts "0 - Stop and exit the program"
   end
 end

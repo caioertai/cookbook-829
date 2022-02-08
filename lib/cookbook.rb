@@ -35,7 +35,6 @@ class Cookbook
 
   def load_csv
     CSV.foreach(@csv_path, headers: true, header_converters: :symbol) do |row|
-      binding.pry
       # TYPECASTING
       row[:rating] = row[:rating].to_i      # Integer
       row[:done] = row[:done] == "true" # boolean

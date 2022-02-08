@@ -23,7 +23,7 @@ class Controller
     # Ask VIEW to ask USER for a rating
     recipe_rating = @view.ask_for("rating").to_i
     # Ask VIEW to ask USER for a prep_time
-    recipe_prep_time = @view.ask_for("preparation time").to_i
+    recipe_prep_time = @view.ask_for("preparation time")
     # Ask RECIPE to instantiate
     new_recipe = Recipe.new(
       name: recipe_name,

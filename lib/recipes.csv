@@ -1,5 +1,3 @@
 name,description,rating,done,prep_time
-Caipirinha,Lemon and Cachaça,4,true,prep time not given
+Caipirinha,Lemon and Cachaça,4,false,prep time not given
 Pizza,Flour and cheese,3,true,6 minutes
-Bread,Flour,5,true,prep time not given
-Bread,Flour,5,false,66 minutes
